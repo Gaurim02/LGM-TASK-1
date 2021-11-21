@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<link rel="stylesheet" href="E:\LGM.txt\index.html\Magnific-Popup-master\dist/Magnific-Popup-master">
+
+<body>
+    <section class="header-c">
+        <nav>
+            <a href="index.html"></a>
+            <h1> <span> S</span>KILL D<span>RI</span>LL</h1>
+            <div>
+                <ul class="nav-links">
+
+                    <li><a class="active" href="index.html">HOME </a>&nbsp;</li>
+                    <li><a href="courses.html">COURSES </a>&nbsp;</li>
+                    <li><a href="prices.html">PRICES </a>&nbsp;</li>    
+                    <li><a href="testimonial.html">TESTIMONIAL </a>&nbsp;</li>
+                    <li><a href="contact.html">CONTACT </a>&nbsp;</li>
+                    <li><a href="log.html">LOGIN </a>&nbsp;</li>
+                </ul>
+            </div>
+        </nav>
+        <h1> <u><b><i>-LOGIN-</i></b></u> </h1>
+        <div class="hero">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"> </div>
+                    <button tpye="button" class="toggle-btn" onclick="login()">LOG IN</button>
+                    <button tpye="button" class="toggle-btn" onclick="register()">REGISTER</button>
+
+                </div>
+                <div class="social-icons">
+                    <img src="images/fb2.png">
+                    <img src="images/ins.png" alt="">
+                    <img src="images/twi.png" alt="">
+                </div>
+                <form id="login" class="input-group">
+                    <input type="text" class="input-field" placeholder="User ID" required>
+                    <input type="text" class="input-field" placeholder="Enter Password" required>
+                    <input type="checkbox" class="check-box"><span class="spa">Remember Password</span>
+                    <button type="submit" class="submit-btn">Log In</button>
+                </form>
+                <form id="register" class="input-group">
+                    <input type="text" class="input-field" placeholder="Name" required>
+                    <input type="email" class="input-field" placeholder="Email ID" required>
+                    <input type="text" class="input-field" placeholder="Enter Password" required>
+                    <input type="checkbox" class="check-box"><span>Agree to terms and conditions</span>
+                    <button type="submit" class="submit-btn">REGISTER</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+    <script>
+        var x = document.getElementById("login");
+        var y = document.getElementById("register");
+        var z = document.getElementsById("btn");
+
+        function register() {
+            x.style.left = "-400px";
+            y.style.left = "50px";
+            z.style.left = "410px";
+        }
+        function login() {
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0px";
+        }
+    </script>
+        
+            
+        
+    
+    
+</body>
+
+</html>
